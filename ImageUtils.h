@@ -12,8 +12,7 @@ typedef cv::Mat Image;
 namespace Utils
 {
     Image loadImage(std::string filePath);
-    void saveImage(std::string filePath, Image img);
-
+    
     std::vector<Image> loadColorFrames(std::string filePath);
     std::vector<Image> loadDepthFrames(std::string filePath);
 }
