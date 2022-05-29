@@ -33,6 +33,7 @@ std::vector<Image> Utils::loadColorFrames(std::string directoryPath)
     }
     return frames;
 }
+
 std::vector<Image> Utils::loadDepthFrames(std::string directoryPath)
 {
 

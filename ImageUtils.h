@@ -2,10 +2,10 @@
 // Created by dark on 5/29/22.
 //
 
-#ifndef DARTROBOTS_IMAGEUTILS_H
-#define DARTROBOTS_IMAGEUTILS_H
+#ifndef IMAGEUTILS_H
+#define IMAGEUTILS_H
 
-#endif //DARTROBOTS_IMAGEUTILS_H
+#endif //IMAGEUTILS_H
 
 #include <opencv2/opencv.hpp>
 
