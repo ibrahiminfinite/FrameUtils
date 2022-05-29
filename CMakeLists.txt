@@ -7,5 +7,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINITIONS})
 
-add_executable(cvtest ImageUtils.cpp)
+add_executable(cvtest main.cpp ImageUtils.cpp)
 target_link_libraries(cvtest ${OpenCV_LIBS})
