@@ -5,8 +5,6 @@
 #ifndef IMAGEUTILS_H
 #define IMAGEUTILS_H
 
-#endif //IMAGEUTILS_H
-
 #include <opencv2/opencv.hpp>
 
 typedef cv::Mat Image;
@@ -19,3 +17,5 @@ namespace Utils
     std::vector<Image> loadColorFrames(std::string filePath);
     std::vector<Image> loadDepthFrames(std::string filePath);
 }
+
+#endif //IMAGEUTILS_H
